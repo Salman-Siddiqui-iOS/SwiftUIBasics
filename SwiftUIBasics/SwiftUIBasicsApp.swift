@@ -11,7 +11,14 @@ import SwiftUI
 struct SwiftUIBasicsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            
+            BindableListElements(list: SwiftUIBasicsApp.notes123())
         }
+    }
+    
+    static func notes123() -> NoteList {
+        let note = NoteList()
+        note.notes = [Note(id: UUID(), title: "hello", text: "world")]
+        return note
     }
 }

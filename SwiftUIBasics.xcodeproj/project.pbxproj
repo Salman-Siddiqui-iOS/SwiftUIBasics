@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC26996F267F6832007B4C91 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC26996E267F6832007B4C91 /* ListView.swift */; };
+		FC2FE54A2680D3A8000EAA8D /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2FE5492680D3A8000EAA8D /* GridView.swift */; };
 		FC4760F5267E049A00DEE6F5 /* SwiftUIBasicsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4760F4267E049A00DEE6F5 /* SwiftUIBasicsApp.swift */; };
-		FC4760F7267E049A00DEE6F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4760F6267E049A00DEE6F5 /* ContentView.swift */; };
+		FC4760F7267E049A00DEE6F5 /* NavigationContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4760F6267E049A00DEE6F5 /* NavigationContentView.swift */; };
 		FC4760F9267E049B00DEE6F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC4760F8267E049B00DEE6F5 /* Assets.xcassets */; };
 		FC4760FC267E049B00DEE6F5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC4760FB267E049B00DEE6F5 /* Preview Assets.xcassets */; };
 		FC476106267E049B00DEE6F5 /* SwiftUIBasicsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC476105267E049B00DEE6F5 /* SwiftUIBasicsTests.swift */; };
 		FC476110267E049B00DEE6F5 /* SwiftUIBasicsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC47610F267E049B00DEE6F5 /* SwiftUIBasicsUITests.swift */; };
+		FC502CC2267E14EF004B2028 /* ModifierOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC502CC1267E14EF004B2028 /* ModifierOrder.swift */; };
+		FCA005CE2686525C00D23B4B /* BindableListElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA005CD2686525C00D23B4B /* BindableListElements.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,15 +37,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC26996E267F6832007B4C91 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		FC2FE5492680D3A8000EAA8D /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
 		FC4760F1267E049A00DEE6F5 /* SwiftUIBasics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBasics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC4760F4267E049A00DEE6F5 /* SwiftUIBasicsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBasicsApp.swift; sourceTree = "<group>"; };
-		FC4760F6267E049A00DEE6F5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FC4760F6267E049A00DEE6F5 /* NavigationContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationContentView.swift; sourceTree = "<group>"; };
 		FC4760F8267E049B00DEE6F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC4760FB267E049B00DEE6F5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FC476101267E049B00DEE6F5 /* SwiftUIBasicsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIBasicsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC476105267E049B00DEE6F5 /* SwiftUIBasicsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBasicsTests.swift; sourceTree = "<group>"; };
 		FC47610B267E049B00DEE6F5 /* SwiftUIBasicsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIBasicsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC47610F267E049B00DEE6F5 /* SwiftUIBasicsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBasicsUITests.swift; sourceTree = "<group>"; };
+		FC502CC1267E14EF004B2028 /* ModifierOrder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModifierOrder.swift; sourceTree = "<group>"; };
+		FCA005CD2686525C00D23B4B /* BindableListElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindableListElements.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +101,11 @@
 			isa = PBXGroup;
 			children = (
 				FC4760F4267E049A00DEE6F5 /* SwiftUIBasicsApp.swift */,
-				FC4760F6267E049A00DEE6F5 /* ContentView.swift */,
+				FC502CC1267E14EF004B2028 /* ModifierOrder.swift */,
+				FC4760F6267E049A00DEE6F5 /* NavigationContentView.swift */,
+				FC26996E267F6832007B4C91 /* ListView.swift */,
+				FC2FE5492680D3A8000EAA8D /* GridView.swift */,
+				FCA005CD2686525C00D23B4B /* BindableListElements.swift */,
 				FC4760F8267E049B00DEE6F5 /* Assets.xcassets */,
 				FC4760FA267E049B00DEE6F5 /* Preview Content */,
 			);
@@ -254,8 +266,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC4760F7267E049A00DEE6F5 /* ContentView.swift in Sources */,
+				FC26996F267F6832007B4C91 /* ListView.swift in Sources */,
+				FC502CC2267E14EF004B2028 /* ModifierOrder.swift in Sources */,
+				FC4760F7267E049A00DEE6F5 /* NavigationContentView.swift in Sources */,
+				FC2FE54A2680D3A8000EAA8D /* GridView.swift in Sources */,
 				FC4760F5267E049A00DEE6F5 /* SwiftUIBasicsApp.swift in Sources */,
+				FCA005CE2686525C00D23B4B /* BindableListElements.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

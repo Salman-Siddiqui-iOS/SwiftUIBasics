@@ -41,6 +41,7 @@ struct ListView: View {
         List(people, id: \.self) {
             Text($0)
         }
+        
     }
 }
 

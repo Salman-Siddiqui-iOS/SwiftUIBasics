@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		FC26996F267F6832007B4C91 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC26996E267F6832007B4C91 /* ListView.swift */; };
 		FC2FE54A2680D3A8000EAA8D /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2FE5492680D3A8000EAA8D /* GridView.swift */; };
+		FC3F40E826FB9CB500C6D8A4 /* Stacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3F40E426FB9CB500C6D8A4 /* Stacks.swift */; };
+		FC3F40E926FB9CB500C6D8A4 /* Spacers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3F40E526FB9CB500C6D8A4 /* Spacers.swift */; };
+		FC3F40EA26FB9CB500C6D8A4 /* ViewBuildersTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3F40E626FB9CB500C6D8A4 /* ViewBuildersTest.swift */; };
+		FC3F40EB26FB9CB500C6D8A4 /* Layers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3F40E726FB9CB500C6D8A4 /* Layers.swift */; };
 		FC4760F5267E049A00DEE6F5 /* SwiftUIBasicsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4760F4267E049A00DEE6F5 /* SwiftUIBasicsApp.swift */; };
 		FC4760F7267E049A00DEE6F5 /* NavigationContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC4760F6267E049A00DEE6F5 /* NavigationContentView.swift */; };
 		FC4760F9267E049B00DEE6F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC4760F8267E049B00DEE6F5 /* Assets.xcassets */; };
@@ -39,6 +43,10 @@
 /* Begin PBXFileReference section */
 		FC26996E267F6832007B4C91 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		FC2FE5492680D3A8000EAA8D /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		FC3F40E426FB9CB500C6D8A4 /* Stacks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stacks.swift; sourceTree = "<group>"; };
+		FC3F40E526FB9CB500C6D8A4 /* Spacers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spacers.swift; sourceTree = "<group>"; };
+		FC3F40E626FB9CB500C6D8A4 /* ViewBuildersTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewBuildersTest.swift; sourceTree = "<group>"; };
+		FC3F40E726FB9CB500C6D8A4 /* Layers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Layers.swift; sourceTree = "<group>"; };
 		FC4760F1267E049A00DEE6F5 /* SwiftUIBasics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBasics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC4760F4267E049A00DEE6F5 /* SwiftUIBasicsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBasicsApp.swift; sourceTree = "<group>"; };
 		FC4760F6267E049A00DEE6F5 /* NavigationContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationContentView.swift; sourceTree = "<group>"; };
@@ -100,6 +108,10 @@
 		FC4760F3267E049A00DEE6F5 /* SwiftUIBasics */ = {
 			isa = PBXGroup;
 			children = (
+				FC3F40E726FB9CB500C6D8A4 /* Layers.swift */,
+				FC3F40E526FB9CB500C6D8A4 /* Spacers.swift */,
+				FC3F40E426FB9CB500C6D8A4 /* Stacks.swift */,
+				FC3F40E626FB9CB500C6D8A4 /* ViewBuildersTest.swift */,
 				FC4760F4267E049A00DEE6F5 /* SwiftUIBasicsApp.swift */,
 				FC502CC1267E14EF004B2028 /* ModifierOrder.swift */,
 				FC4760F6267E049A00DEE6F5 /* NavigationContentView.swift */,
@@ -267,9 +279,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC26996F267F6832007B4C91 /* ListView.swift in Sources */,
+				FC3F40E926FB9CB500C6D8A4 /* Spacers.swift in Sources */,
 				FC502CC2267E14EF004B2028 /* ModifierOrder.swift in Sources */,
+				FC3F40EB26FB9CB500C6D8A4 /* Layers.swift in Sources */,
 				FC4760F7267E049A00DEE6F5 /* NavigationContentView.swift in Sources */,
+				FC3F40EA26FB9CB500C6D8A4 /* ViewBuildersTest.swift in Sources */,
 				FC2FE54A2680D3A8000EAA8D /* GridView.swift in Sources */,
+				FC3F40E826FB9CB500C6D8A4 /* Stacks.swift in Sources */,
 				FC4760F5267E049A00DEE6F5 /* SwiftUIBasicsApp.swift in Sources */,
 				FCA005CE2686525C00D23B4B /* BindableListElements.swift in Sources */,
 			);

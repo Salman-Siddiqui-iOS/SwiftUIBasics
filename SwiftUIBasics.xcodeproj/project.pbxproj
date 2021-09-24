@@ -21,6 +21,8 @@
 		FC476110267E049B00DEE6F5 /* SwiftUIBasicsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC47610F267E049B00DEE6F5 /* SwiftUIBasicsUITests.swift */; };
 		FC502CC2267E14EF004B2028 /* ModifierOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC502CC1267E14EF004B2028 /* ModifierOrder.swift */; };
 		FCA005CE2686525C00D23B4B /* BindableListElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA005CD2686525C00D23B4B /* BindableListElements.swift */; };
+		FCB8E96426FC7EBA00D7C81B /* Forms.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB8E96326FC7EBA00D7C81B /* Forms.swift */; };
+		FCB8E96626FCC0A200D7C81B /* ScrollViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB8E96526FCC0A200D7C81B /* ScrollViews.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,8 @@
 		FC47610F267E049B00DEE6F5 /* SwiftUIBasicsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBasicsUITests.swift; sourceTree = "<group>"; };
 		FC502CC1267E14EF004B2028 /* ModifierOrder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModifierOrder.swift; sourceTree = "<group>"; };
 		FCA005CD2686525C00D23B4B /* BindableListElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindableListElements.swift; sourceTree = "<group>"; };
+		FCB8E96326FC7EBA00D7C81B /* Forms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forms.swift; sourceTree = "<group>"; };
+		FCB8E96526FCC0A200D7C81B /* ScrollViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,8 +122,10 @@
 				FC26996E267F6832007B4C91 /* ListView.swift */,
 				FC2FE5492680D3A8000EAA8D /* GridView.swift */,
 				FCA005CD2686525C00D23B4B /* BindableListElements.swift */,
+				FCB8E96326FC7EBA00D7C81B /* Forms.swift */,
 				FC4760F8267E049B00DEE6F5 /* Assets.xcassets */,
 				FC4760FA267E049B00DEE6F5 /* Preview Content */,
+				FCB8E96526FCC0A200D7C81B /* ScrollViews.swift */,
 			);
 			path = SwiftUIBasics;
 			sourceTree = "<group>";
@@ -279,11 +285,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC26996F267F6832007B4C91 /* ListView.swift in Sources */,
+				FCB8E96626FCC0A200D7C81B /* ScrollViews.swift in Sources */,
 				FC3F40E926FB9CB500C6D8A4 /* Spacers.swift in Sources */,
 				FC502CC2267E14EF004B2028 /* ModifierOrder.swift in Sources */,
 				FC3F40EB26FB9CB500C6D8A4 /* Layers.swift in Sources */,
 				FC4760F7267E049A00DEE6F5 /* NavigationContentView.swift in Sources */,
 				FC3F40EA26FB9CB500C6D8A4 /* ViewBuildersTest.swift in Sources */,
+				FCB8E96426FC7EBA00D7C81B /* Forms.swift in Sources */,
 				FC2FE54A2680D3A8000EAA8D /* GridView.swift in Sources */,
 				FC3F40E826FB9CB500C6D8A4 /* Stacks.swift in Sources */,
 				FC4760F5267E049A00DEE6F5 /* SwiftUIBasicsApp.swift in Sources */,

@@ -34,7 +34,6 @@ struct Spacers: View {
 }
 
 // MARK: - Evenly Spaced
-
 struct EvenlySpaced: View {
     fileprivate func beforeNames() -> some View {
      HStack {
@@ -78,9 +77,52 @@ struct EvenlySpaced: View {
     }
 }
 
+// MARK: - Minium Spacer
+struct MinimumLenght: View {
+    var body: some View {
+        VStack(spacing: 10) {
+            Text("Spacer")
+                .font(.largeTitle)
+            Text("Minimum Length")
+                .font(.title)
+            Text("You can set a minimum space to exist between views using the minLength modifier on the Spacer.")
+                .padding()
+                .background(Color.yellow)
+            Text("No minLength set (system default is used)")
+                    .bold()
+            HStack {
+                Image("yosemite")
+                    .resizable()
+                    .frame(width: 200, height: 100)
+                Spacer()
+                Text("This is Yosemite National Park").lineLimit(1)
+            }
+            .padding()
+            Text("minLength = 0")
+                    .bold()
+            HStack {
+                Image("yosemite")
+                    .resizable()
+                    .frame(width: 200, height: 100)
+                Spacer(minLength: 0)
+                Text("This is Yosemite National Park").lineLimit(1)
+            }
+            .padding()
+            Text("minLength = 20")
+                    .bold()
+            HStack {
+                Image("yosemite")
+                    .resizable()
+                    .frame(width: 200, height: 100)
+                   Spacer(minLength: 20)
+                   Text("This is Yosemite National Park").lineLimit(1)
+               }.padding()
+        }
+    }
+}
 
 struct Spacers_Previews: PreviewProvider {
     static var previews: some View {
-        EvenlySpaced()
+        MinimumLenght()
     }
 }

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC1238B3270CB4D1008239E3 /* Clipping.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1238B2270CB4D1008239E3 /* Clipping.swift */; };
+		FC1CC09B270DE595007DEBC2 /* LazyLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1CC09A270DE595007DEBC2 /* LazyLoading.swift */; };
 		FC26996F267F6832007B4C91 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC26996E267F6832007B4C91 /* ListView.swift */; };
 		FC2FE54A2680D3A8000EAA8D /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2FE5492680D3A8000EAA8D /* GridView.swift */; };
 		FC3F40E826FB9CB500C6D8A4 /* Stacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3F40E426FB9CB500C6D8A4 /* Stacks.swift */; };
@@ -23,6 +25,7 @@
 		FCA005CE2686525C00D23B4B /* BindableListElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA005CD2686525C00D23B4B /* BindableListElements.swift */; };
 		FCB8E96426FC7EBA00D7C81B /* Forms.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB8E96326FC7EBA00D7C81B /* Forms.swift */; };
 		FCB8E96626FCC0A200D7C81B /* ScrollViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB8E96526FCC0A200D7C81B /* ScrollViews.swift */; };
+		FCCF001126FE1955001C2EE2 /* GeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCF001026FE1955001C2EE2 /* GeometryReader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC1238B2270CB4D1008239E3 /* Clipping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clipping.swift; sourceTree = "<group>"; };
+		FC1CC09A270DE595007DEBC2 /* LazyLoading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyLoading.swift; sourceTree = "<group>"; };
 		FC26996E267F6832007B4C91 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		FC2FE5492680D3A8000EAA8D /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
 		FC3F40E426FB9CB500C6D8A4 /* Stacks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stacks.swift; sourceTree = "<group>"; };
@@ -62,6 +67,7 @@
 		FCA005CD2686525C00D23B4B /* BindableListElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindableListElements.swift; sourceTree = "<group>"; };
 		FCB8E96326FC7EBA00D7C81B /* Forms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forms.swift; sourceTree = "<group>"; };
 		FCB8E96526FCC0A200D7C81B /* ScrollViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViews.swift; sourceTree = "<group>"; };
+		FCCF001026FE1955001C2EE2 /* GeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +99,6 @@
 			isa = PBXGroup;
 			children = (
 				FC4760F3267E049A00DEE6F5 /* SwiftUIBasics */,
-				FC476104267E049B00DEE6F5 /* SwiftUIBasicsTests */,
 				FC47610E267E049B00DEE6F5 /* SwiftUIBasicsUITests */,
 				FC4760F2267E049A00DEE6F5 /* Products */,
 			);
@@ -123,9 +128,13 @@
 				FC2FE5492680D3A8000EAA8D /* GridView.swift */,
 				FCA005CD2686525C00D23B4B /* BindableListElements.swift */,
 				FCB8E96326FC7EBA00D7C81B /* Forms.swift */,
+				FCCF001026FE1955001C2EE2 /* GeometryReader.swift */,
+				FC476104267E049B00DEE6F5 /* SwiftUIBasicsTests */,
 				FC4760F8267E049B00DEE6F5 /* Assets.xcassets */,
 				FC4760FA267E049B00DEE6F5 /* Preview Content */,
 				FCB8E96526FCC0A200D7C81B /* ScrollViews.swift */,
+				FC1238B2270CB4D1008239E3 /* Clipping.swift */,
+				FC1CC09A270DE595007DEBC2 /* LazyLoading.swift */,
 			);
 			path = SwiftUIBasics;
 			sourceTree = "<group>";
@@ -294,8 +303,11 @@
 				FCB8E96426FC7EBA00D7C81B /* Forms.swift in Sources */,
 				FC2FE54A2680D3A8000EAA8D /* GridView.swift in Sources */,
 				FC3F40E826FB9CB500C6D8A4 /* Stacks.swift in Sources */,
+				FC1CC09B270DE595007DEBC2 /* LazyLoading.swift in Sources */,
 				FC4760F5267E049A00DEE6F5 /* SwiftUIBasicsApp.swift in Sources */,
+				FCCF001126FE1955001C2EE2 /* GeometryReader.swift in Sources */,
 				FCA005CE2686525C00D23B4B /* BindableListElements.swift in Sources */,
+				FC1238B3270CB4D1008239E3 /* Clipping.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

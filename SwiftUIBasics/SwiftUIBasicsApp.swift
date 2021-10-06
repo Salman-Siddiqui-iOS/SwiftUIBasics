@@ -11,8 +11,8 @@ import SwiftUI
 struct SwiftUIBasicsApp: App {
     var body: some Scene {
         WindowGroup {
-            
-            BindableListElements(list: SwiftUIBasicsApp.notes123())
+            LazyLoading()
+           // BindableListElements(list: SwiftUIBasicsApp.notes123())
         }
     }
     

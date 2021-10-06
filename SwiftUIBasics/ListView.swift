@@ -95,8 +95,16 @@ struct List_WithData: View {
 struct List_Grouped: View {
     var data = ["Grouped List Style", "This list is using the group list style", "Evans", "Lemuel James Guerrero", "Mark", "Durtschi", "Chase", "Adam", "Rodrigo"]
     var body: some View {
-        List(data, id: \.self) { data in
-            Text(data)
+        List(data, id: \.self) {
+            data in
+            if #available(iOS 15.0, *) {
+                Section(header: Text("Names"), footer: Text("All Names")) {
+                    Text(data)
+                }
+                .listSectionSeparator(.visible)
+            } else {
+                // Fallback on earlier versions
+            }
         }.listStyle(.grouped)
     }
 }

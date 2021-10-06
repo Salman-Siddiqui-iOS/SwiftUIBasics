@@ -57,7 +57,11 @@ struct MyContainer<Content: View>: View {
     }
     
     var body: some View {
-        content
+        VStack {
+            content
+        }
+        .background(RoundedRectangle(cornerRadius: 10).fill( bgColor))
+        .foregroundColor(fgColor)
     }
 }
 

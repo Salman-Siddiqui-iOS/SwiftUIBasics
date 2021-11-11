@@ -111,6 +111,6 @@ struct List_Grouped: View {
 
 struct ListView_Previews: PreviewProvider {
     static var previews: some View {
-        List_Grouped()
+        ListView()
     }
 }

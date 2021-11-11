@@ -93,6 +93,7 @@ struct NavigationContentView: View {
     }
 }
 
+
 struct NavigationContentView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationContentView()

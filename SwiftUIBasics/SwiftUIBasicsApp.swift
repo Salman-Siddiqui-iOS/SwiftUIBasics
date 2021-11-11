@@ -11,8 +11,10 @@ import SwiftUI
 struct SwiftUIBasicsApp: App {
     var body: some Scene {
         WindowGroup {
-            LazyLoading()
-           // BindableListElements(list: SwiftUIBasicsApp.notes123())
+           // let navObj = NavModel()
+           // NavigationContentView2().environmentObject(navObj)
+            // BindableListElements(list: SwiftUIBasicsApp.notes123())
+          //  TexField_Style()
         }
     }
     
@@ -20,5 +22,11 @@ struct SwiftUIBasicsApp: App {
         let note = NoteList()
         note.notes = [Note(id: UUID(), title: "hello", text: "world")]
         return note
+    }
+}
+
+struct SwiftUIBasicsApp_Previews: PreviewProvider {
+    static var previews: some View {
+        /*@START_MENU_TOKEN@*/Text("Hello, World!")/*@END_MENU_TOKEN@*/
     }
 }

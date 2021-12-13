@@ -1,0 +1,65 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "3e97cc808a56ccfb37b0a63bef70e44a72fcf799c2a5a4aadef806f673494ff0"
+    },
+    {
+      "guid" : "3e97cc808a56ccfb37b0a63bef70e44a552d9aefcd0f2a49fc1688741a8a88b4"
+    },
+    {
+      "guid" : "3e97cc808a56ccfb37b0a63bef70e44aca5ab903126f3e7cbfaa411df4a97ba7"
+    }
+  ],
+  "containerPath" : "/Users/apple/Library/Mobile Documents/com~apple~CloudDocs/iOS Dev/Playground/SwiftUI/SwiftUIBasics/SwiftUIBasics.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator15.0",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/apple/Library/Mobile Documents/com~apple~CloudDocs/iOS Dev/Playground/SwiftUI/SwiftUIBasics/DerivedData/SwiftUIBasics/Index/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/apple/Library/Mobile Documents/com~apple~CloudDocs/iOS Dev/Playground/SwiftUI/SwiftUIBasics/DerivedData/SwiftUIBasics/Index/Build/Products",
+      "derivedDataPath" : "/Users/apple/Library/Mobile Documents/com~apple~CloudDocs/iOS Dev/Playground/SwiftUI/SwiftUIBasics/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/apple/Library/Mobile Documents/com~apple~CloudDocs/iOS Dev/Playground/SwiftUI/SwiftUIBasics/DerivedData/SwiftUIBasics/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/apple/Library/Mobile Documents/com~apple~CloudDocs/iOS Dev/Playground/SwiftUI/SwiftUIBasics/DerivedData/SwiftUIBasics/Index/PrecompiledHeaders",
+      "pchPath" : "/Users/apple/Library/Mobile Documents/com~apple~CloudDocs/iOS Dev/Playground/SwiftUI/SwiftUIBasics/DerivedData/SwiftUIBasics/Index/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "INDEX_ARENA_INFO_REGULAR_BUILD_PRODUCTS_DIR" : "/Users/apple/Library/Mobile Documents/com~apple~CloudDocs/iOS Dev/Playground/SwiftUI/SwiftUIBasics/DerivedData/SwiftUIBasics/Build/Products",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "utility",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

@@ -1,0 +1,44 @@
+{
+  "source": "/Users/apple/Library/Mobile Documents/com~apple~CloudDocs/iOS Dev/Playground/SwiftUI/SwiftUIBasics/SwiftUIBasics/ButtonStyle.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Hello World"
+      },
+      {
+        "comment": "",
+        "key": "Button 1"
+      },
+      {
+        "comment": "",
+        "key": "Button 2"
+      },
+      {
+        "comment": "",
+        "key": "Download"
+      },
+      {
+        "comment": "",
+        "key": "Delete"
+      },
+      {
+        "comment": "",
+        "key": "Press long"
+      },
+      {
+        "comment": "",
+        "key": "Hello, World!"
+      },
+      {
+        "comment": "",
+        "key": "Action"
+      },
+      {
+        "comment": "",
+        "key": "New Action"
+      }
+    ]
+  },
+  "version": 1
+}

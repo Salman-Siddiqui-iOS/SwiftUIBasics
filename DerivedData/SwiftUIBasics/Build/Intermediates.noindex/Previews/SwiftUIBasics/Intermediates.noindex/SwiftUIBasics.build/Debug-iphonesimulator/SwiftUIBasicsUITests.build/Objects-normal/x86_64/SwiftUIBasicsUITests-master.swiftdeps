@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)"
+options: "91674bdd1e1e61b9d8f3544705118119d4de4644c8e746518640ff503c3b06db"
+build_start_time: [1636044202, 587753057]
+build_end_time: [1636044211, 239265918]
+inputs:
+  ? "/Users/apple/Library/Mobile Documents/com~apple~CloudDocs/iOS Dev/Playground/SwiftUI/SwiftUIBasics/SwiftUIBasicsUITests/SwiftUIBasicsUITests.swift"
+  : [1624100123, 0]

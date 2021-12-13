@@ -1,0 +1,96 @@
+{
+  "source": "/Users/apple/Library/Mobile Documents/com~apple~CloudDocs/iOS Dev/Playground/SwiftUI/SwiftUIBasics/SwiftUIBasics/Stacks.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "VStack"
+      },
+      {
+        "comment": "",
+        "key": "Introduction"
+      },
+      {
+        "comment": "",
+        "key": "VStacks are views that contain other views"
+      },
+      {
+        "comment": "",
+        "key": "VStack inside another VStack"
+      },
+      {
+        "comment": "",
+        "key": "This can be handy. Why?"
+      },
+      {
+        "comment": "",
+        "key": "More than 10 views creates an error."
+      },
+      {
+        "comment": "",
+        "key": "HStack"
+      },
+      {
+        "comment": "",
+        "key": "By default, views within an HStack are vertically aligned in the center."
+      },
+      {
+        "comment": "",
+        "key": "Leading"
+      },
+      {
+        "comment": "",
+        "key": "Middle"
+      },
+      {
+        "comment": "",
+        "key": "Trailing"
+      },
+      {
+        "comment": "",
+        "key": "Top"
+      },
+      {
+        "comment": "",
+        "key": "ZStack"
+      },
+      {
+        "comment": "",
+        "key": "Introductions"
+      },
+      {
+        "comment": "",
+        "key": "ZStacks are great for setting a background color."
+      },
+      {
+        "comment": "",
+        "key": "But notice the Color stops at the Safe Areas (white areas on top and bottom)."
+      },
+      {
+        "comment": "",
+        "key": "Edges Ignoring Safe Area"
+      },
+      {
+        "comment": "",
+        "key": "Ignoring the Safe Areas will extend a view to fill the whole scene."
+      },
+      {
+        "comment": "",
+        "key": "Having the ZStack edges ignoring the safe areas might be a mistake if you don't want other layers' edges to also ignore the safe areas. You notice that the top Text view is completely under the notch."
+      },
+      {
+        "comment": "",
+        "key": "Layering & Aligning"
+      },
+      {
+        "comment": "",
+        "key": "ZStacks are great for layering views. For example, putting text on top of an image.You can align all the subviews within the ZStack."
+      },
+      {
+        "comment": "",
+        "key": "Yosemite National Park"
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>15C6D3D6-EE33-4BCE-BDC0-C35FCD2BBC22</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogMajorGroupSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.bundle</string>
+			<key>fileName</key>
+			<string>15C6D3D6-EE33-4BCE-BDC0-C35FCD2BBC22.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>signature</key>
+			<string>SwiftUIBasicsTests-fbzsejpxwtgzlpbpibnbuipyabuh</string>
+			<key>timeStartedRecording</key>
+			<real>657730959.22139704</real>
+			<key>timeStoppedRecording</key>
+			<real>657730959.58075798</real>
+			<key>title</key>
+			<string>Build target SwiftUIBasicsTests</string>
+			<key>uniqueIdentifier</key>
+			<string>15C6D3D6-EE33-4BCE-BDC0-C35FCD2BBC22</string>
+		</dict>
+	</dict>
+	<key>preserveOldLogs</key>
+	<true/>
+</dict>
+</plist>

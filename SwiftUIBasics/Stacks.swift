@@ -42,7 +42,7 @@ struct VStackContainer: View {
     }
 }
 
-// HStack stands for “Horizontal Stack”. It is a pull-in container view in which you pass in up to ten views and it will compose them side-by-side.
+/// `HStack` stands for **Horizontal Stack**. It is a pull-in container view in which you pass in up to ten views and it will compose them side-by-side.
 struct HStackContainer: View {
     var body: some View {
         VStack {
@@ -89,7 +89,7 @@ struct HStackContainer: View {
 
 
 /**
- - A ZStack is a push-out container view.
+ - A `ZStack` is a push-out container view.
  - It is a view that overlays its child      views on top of each other.
  - (“Z” represents the Z-axis which is       depth-based in a 3D space.)
  - The ZStack is a pull-in container view.   You may think it is a push-out view       because of the first example but it’s     actually the color that is pushing out

@@ -1,0 +1,28 @@
+{
+  "source": "/Users/apple/Library/Mobile Documents/com~apple~CloudDocs/iOS Dev/Playground/SwiftUI/SwiftUIBasics/DerivedData/SwiftUIBasics/Build/Intermediates.noindex/Previews/SwiftUIBasics/Intermediates.noindex/SwiftUIBasics.build/Debug-iphonesimulator/SwiftUIBasics.build/Objects-normal/x86_64/TextField_Basics.3.preview-thunk.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Enter your first name"
+      },
+      {
+        "comment": "",
+        "key": "Enter your last name"
+      },
+      {
+        "comment": "",
+        "key": "User Name"
+      },
+      {
+        "comment": "",
+        "key": "Full Name"
+      },
+      {
+        "comment": "",
+        "key": "AutoFill"
+      }
+    ]
+  },
+  "version": 1
+}

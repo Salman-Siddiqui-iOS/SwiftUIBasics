@@ -1,0 +1,48 @@
+{
+  "source": "/Users/apple/Library/Mobile Documents/com~apple~CloudDocs/iOS Dev/Playground/SwiftUI/SwiftUIBasics/DerivedData/SwiftUIBasics/Build/Intermediates.noindex/Previews/SwiftUIBasics/Intermediates.noindex/SwiftUIBasics.build/Debug-iphonesimulator/SwiftUIBasics.build/Objects-normal/x86_64/ListView.2.preview-thunk.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Names"
+      },
+      {
+        "comment": "",
+        "key": "All Names"
+      },
+      {
+        "comment": "",
+        "key": "List"
+      },
+      {
+        "comment": "",
+        "key": "Static Data"
+      },
+      {
+        "comment": "",
+        "key": "You can show static views or data within the List view. It does not have to be bound with data. It gives you a scrollable view."
+      },
+      {
+        "comment": "",
+        "key": "Line One"
+      },
+      {
+        "comment": "",
+        "key": "Line two"
+      },
+      {
+        "comment": "",
+        "key": "Line three"
+      },
+      {
+        "comment": "",
+        "key": "Click here "
+      },
+      {
+        "comment": "",
+        "key": "Centered Text"
+      }
+    ]
+  },
+  "version": 1
+}

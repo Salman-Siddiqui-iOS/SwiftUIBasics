@@ -1,0 +1,6 @@
+Target dependency graph (3 targets)
+SwiftUIBasics in SwiftUIBasics, no dependencies
+SwiftUIBasicsUITests in SwiftUIBasics, depends on:
+SwiftUIBasics in SwiftUIBasics (explicit)
+SwiftUIBasicsTests in SwiftUIBasics, depends on:
+SwiftUIBasics in SwiftUIBasics (explicit)

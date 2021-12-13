@@ -1,0 +1,52 @@
+{
+  "source": "/Users/apple/Library/Mobile Documents/com~apple~CloudDocs/iOS Dev/Playground/SwiftUI/SwiftUIBasics/SwiftUIBasics/GeometryReader.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "GeometryReader"
+      },
+      {
+        "comment": "",
+        "key": "Introduction"
+      },
+      {
+        "comment": "",
+        "key": "GeometryReader is a container view that pushes out to fill up all available space. You use it to help with positioning items within it."
+      },
+      {
+        "comment": "",
+        "key": "Views center automatically inside the GeometryReader"
+      },
+      {
+        "comment": "",
+        "key": "Positioning"
+      },
+      {
+        "comment": "",
+        "key": "Use the geometry reader's variable to help position child views at different locations within the geometry's view instead of it being in the center."
+      },
+      {
+        "comment": "",
+        "key": "Upper Left"
+      },
+      {
+        "comment": "",
+        "key": "Lower Right"
+      },
+      {
+        "comment": "",
+        "key": "The local coordinate space will always give you zeros."
+      },
+      {
+        "comment": "",
+        "key": "X: %lf"
+      },
+      {
+        "comment": "",
+        "key": "Y: %lf"
+      }
+    ]
+  },
+  "version": 1
+}

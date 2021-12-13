@@ -15,6 +15,11 @@ struct SwiftUIBasicsApp: App {
            // NavigationContentView2().environmentObject(navObj)
             // BindableListElements(list: SwiftUIBasicsApp.notes123())
           //  TexField_Style()
+            if #available(iOS 15.0, *) {
+                TextField_Focus()
+            } else {
+                // Fallback on earlier versions
+            }
         }
     }
     

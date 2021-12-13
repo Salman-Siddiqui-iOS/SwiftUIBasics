@@ -69,8 +69,63 @@ struct DataEssentials: View {
     }
 }
 
+struct EnvironmentObject_Test: View {
+    
+    @EnvironmentObject var counter: Counter
+    
+    var body: some View {
+        NavigationView {
+        VStack {
+            Text("Counter   :\(counter.value)")
+            
+            Button("Counter Value Increment") {
+                counter.value += 1
+                }
+            NavigationLink("Counter 2") {
+                EnvironmentObject_Test2().environmentObject(counter)
+                }
+            }
+        }
+    }
+}
+
+struct EnvironmentObject_Test2: View {
+    
+    @EnvironmentObject var counter: Counter
+    
+    var body: some View {
+        NavigationView {
+        VStack {
+            Text("Counter   :\(counter.value)")
+            
+            Button("Counter Value Increment") {
+                counter.value += 1
+                }
+            NavigationLink("3rd View Value") {
+                EnvironmentObject_Test3(value: $counter.value)
+            }
+            }
+        }
+    }
+}
+
+struct EnvironmentObject_Test3: View {
+    
+    @Binding var value: Int
+    
+    var body: some View {
+        VStack {
+            Text("Counter   :\(value)")
+            
+            Button("Counter Value Increment") {
+                value += 1
+            }
+        }
+    }
+}
+
 struct DataEssentials_Previews: PreviewProvider {
     static var previews: some View {
-        DataEssentials()
+        EnvironmentObject_Test().environmentObject(Counter())
     }
 }

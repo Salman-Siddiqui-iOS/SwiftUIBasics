@@ -1,0 +1,20 @@
+{
+  "source": "/Users/apple/Library/Mobile Documents/com~apple~CloudDocs/iOS Dev/Playground/SwiftUI/SwiftUIBasics/SwiftUIBasics/ScrollViews.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "ScrollView"
+      },
+      {
+        "comment": "",
+        "key": "Scroll Horizontally"
+      },
+      {
+        "comment": "",
+        "key": "Just set the ScrollView's axis to horizontal and if the contents go horizontally beyond the frame, scrolling will be enabled."
+      }
+    ]
+  },
+  "version": 1
+}

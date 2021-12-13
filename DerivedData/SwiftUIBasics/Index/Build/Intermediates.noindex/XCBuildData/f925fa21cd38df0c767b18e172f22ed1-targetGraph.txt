@@ -1,0 +1,3 @@
+Target dependency graph (2 targets)
+SwiftUIBasics in SwiftUIBasics, no dependencies
+SwiftUIBasics in SwiftUIBasics, no dependencies

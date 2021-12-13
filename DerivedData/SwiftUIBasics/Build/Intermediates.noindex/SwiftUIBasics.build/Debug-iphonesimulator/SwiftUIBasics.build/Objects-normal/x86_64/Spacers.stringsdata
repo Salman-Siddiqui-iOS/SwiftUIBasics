@@ -1,0 +1,92 @@
+{
+  "source": "/Users/apple/Library/Mobile Documents/com~apple~CloudDocs/iOS Dev/Playground/SwiftUI/SwiftUIBasics/SwiftUIBasics/Spacers.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Spacer"
+      },
+      {
+        "comment": "",
+        "key": "Introduction"
+      },
+      {
+        "comment": "",
+        "key": "Spacers push things away either vertically or horizontally"
+      },
+      {
+        "comment": "",
+        "key": "Horizontal Spacer"
+      },
+      {
+        "comment": "",
+        "key": "Names"
+      },
+      {
+        "comment": "",
+        "key": "Salman"
+      },
+      {
+        "comment": "",
+        "key": "Hafsa"
+      },
+      {
+        "comment": "",
+        "key": "Hello"
+      },
+      {
+        "comment": "",
+        "key": "Colors"
+      },
+      {
+        "comment": "",
+        "key": "Red"
+      },
+      {
+        "comment": "",
+        "key": "Orange"
+      },
+      {
+        "comment": "",
+        "key": "Green"
+      },
+      {
+        "comment": "",
+        "key": "Evenly Spaced"
+      },
+      {
+        "comment": "",
+        "key": "Use Spacer to evenly space views horizontally so they look good on any device."
+      },
+      {
+        "comment": "",
+        "key": "Before"
+      },
+      {
+        "comment": "",
+        "key": "Minimum Length"
+      },
+      {
+        "comment": "",
+        "key": "You can set a minimum space to exist between views using the minLength modifier on the Spacer."
+      },
+      {
+        "comment": "",
+        "key": "No minLength set (system default is used)"
+      },
+      {
+        "comment": "",
+        "key": "minLength = 0"
+      },
+      {
+        "comment": "",
+        "key": "minLength = 20"
+      },
+      {
+        "comment": "",
+        "key": "This is Yosemite National Park"
+      }
+    ]
+  },
+  "version": 1
+}

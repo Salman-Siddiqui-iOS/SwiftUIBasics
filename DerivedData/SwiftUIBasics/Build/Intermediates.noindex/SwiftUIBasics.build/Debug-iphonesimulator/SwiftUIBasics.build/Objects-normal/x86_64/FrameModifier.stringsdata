@@ -1,0 +1,24 @@
+{
+  "source": "/Users/apple/Library/Mobile Documents/com~apple~CloudDocs/iOS Dev/Playground/SwiftUI/SwiftUIBasics/SwiftUIBasics/FrameModifier.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Very very very long text!"
+      },
+      {
+        "comment": "",
+        "key": "Hello World"
+      },
+      {
+        "comment": "",
+        "key": "salman siddiqui"
+      },
+      {
+        "comment": "",
+        "key": "Happy WWDC 21!"
+      }
+    ]
+  },
+  "version": 1
+}

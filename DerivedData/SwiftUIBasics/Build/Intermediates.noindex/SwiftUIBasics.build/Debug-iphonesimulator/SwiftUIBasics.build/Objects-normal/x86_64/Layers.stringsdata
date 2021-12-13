@@ -1,0 +1,44 @@
+{
+  "source": "/Users/apple/Library/Mobile Documents/com~apple~CloudDocs/iOS Dev/Playground/SwiftUI/SwiftUIBasics/SwiftUIBasics/Layers.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Title"
+      },
+      {
+        "comment": "",
+        "key": "Subtitle"
+      },
+      {
+        "comment": "",
+        "key": "Short description what I am demonstrating goes here."
+      },
+      {
+        "comment": "",
+        "key": "SwiftUI"
+      },
+      {
+        "comment": "",
+        "key": "Bring balance"
+      },
+      {
+        "comment": "",
+        "key": "Layers"
+      },
+      {
+        "comment": "",
+        "key": "The Basics"
+      },
+      {
+        "comment": "",
+        "key": "With SwiftUI views, you can add layers on top (.overlay) and behind(.background) the view."
+      },
+      {
+        "comment": "",
+        "key": "yosemite"
+      }
+    ]
+  },
+  "version": 1
+}

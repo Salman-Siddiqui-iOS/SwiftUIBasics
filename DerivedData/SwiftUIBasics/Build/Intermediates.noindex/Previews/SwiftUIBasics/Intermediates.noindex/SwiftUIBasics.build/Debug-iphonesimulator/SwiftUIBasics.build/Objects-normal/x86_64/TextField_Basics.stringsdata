@@ -1,0 +1,28 @@
+{
+  "source": "/Users/apple/Library/Mobile Documents/com~apple~CloudDocs/iOS Dev/Playground/SwiftUI/SwiftUIBasics/SwiftUIBasics/TextField_Basics.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "AutoFill"
+      },
+      {
+        "comment": "",
+        "key": "User Name"
+      },
+      {
+        "comment": "",
+        "key": "Full Name"
+      },
+      {
+        "comment": "",
+        "key": "Enter your first name"
+      },
+      {
+        "comment": "",
+        "key": "Enter your last name"
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,44 @@
+{
+  "source": "/Users/apple/Library/Mobile Documents/com~apple~CloudDocs/iOS Dev/Playground/SwiftUI/SwiftUIBasics/SwiftUIBasics/Navigation/NavigationContentView2.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Hello"
+      },
+      {
+        "comment": "",
+        "key": "Dismiss by Environment"
+      },
+      {
+        "comment": "",
+        "key": "Show more details"
+      },
+      {
+        "comment": "",
+        "key": "More details about %@"
+      },
+      {
+        "comment": "",
+        "key": "Go back to suit"
+      },
+      {
+        "comment": "",
+        "key": "Open Sheet"
+      },
+      {
+        "comment": "",
+        "key": "Show Overlay"
+      },
+      {
+        "comment": "",
+        "key": "Go back to suit menu"
+      },
+      {
+        "comment": "",
+        "key": "Hello Overlay"
+      }
+    ]
+  },
+  "version": 1
+}

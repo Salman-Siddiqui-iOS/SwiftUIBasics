@@ -15,6 +15,8 @@
 		FC1CC09B270DE595007DEBC2 /* LazyLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1CC09A270DE595007DEBC2 /* LazyLoading.swift */; };
 		FC26996F267F6832007B4C91 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC26996E267F6832007B4C91 /* ListView.swift */; };
 		FC2FE54A2680D3A8000EAA8D /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2FE5492680D3A8000EAA8D /* GridView.swift */; };
+		FC3890BB27672A5F002DFB79 /* EnvironmentTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3890BA27672A5F002DFB79 /* EnvironmentTest.swift */; };
+		FC3890BD27672BF5002DFB79 /* FocusManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3890BC27672BF4002DFB79 /* FocusManagement.swift */; };
 		FC3F40E826FB9CB500C6D8A4 /* Stacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3F40E426FB9CB500C6D8A4 /* Stacks.swift */; };
 		FC3F40E926FB9CB500C6D8A4 /* Spacers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3F40E526FB9CB500C6D8A4 /* Spacers.swift */; };
 		FC3F40EA26FB9CB500C6D8A4 /* ViewBuildersTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3F40E626FB9CB500C6D8A4 /* ViewBuildersTest.swift */; };
@@ -59,6 +61,8 @@
 		FC1CC09A270DE595007DEBC2 /* LazyLoading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyLoading.swift; sourceTree = "<group>"; };
 		FC26996E267F6832007B4C91 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		FC2FE5492680D3A8000EAA8D /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		FC3890BA27672A5F002DFB79 /* EnvironmentTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentTest.swift; sourceTree = "<group>"; };
+		FC3890BC27672BF4002DFB79 /* FocusManagement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FocusManagement.swift; sourceTree = "<group>"; };
 		FC3F40E426FB9CB500C6D8A4 /* Stacks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stacks.swift; sourceTree = "<group>"; };
 		FC3F40E526FB9CB500C6D8A4 /* Spacers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spacers.swift; sourceTree = "<group>"; };
 		FC3F40E626FB9CB500C6D8A4 /* ViewBuildersTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewBuildersTest.swift; sourceTree = "<group>"; };
@@ -136,6 +140,7 @@
 		FC4760F3267E049A00DEE6F5 /* SwiftUIBasics */ = {
 			isa = PBXGroup;
 			children = (
+				FC3890BC27672BF4002DFB79 /* FocusManagement.swift */,
 				18E7536E272457F60035F835 /* Navigation */,
 				FC4760F4267E049A00DEE6F5 /* SwiftUIBasicsApp.swift */,
 				FC3F40E726FB9CB500C6D8A4 /* Layers.swift */,
@@ -158,6 +163,7 @@
 				FC4760F8267E049B00DEE6F5 /* Assets.xcassets */,
 				FC476104267E049B00DEE6F5 /* SwiftUIBasicsTests */,
 				FC4760FA267E049B00DEE6F5 /* Preview Content */,
+				FC3890BA27672A5F002DFB79 /* EnvironmentTest.swift */,
 			);
 			path = SwiftUIBasics;
 			sourceTree = "<group>";
@@ -329,7 +335,9 @@
 				FCB8E96426FC7EBA00D7C81B /* Forms.swift in Sources */,
 				FC2FE54A2680D3A8000EAA8D /* GridView.swift in Sources */,
 				FC3F40E826FB9CB500C6D8A4 /* Stacks.swift in Sources */,
+				FC3890BD27672BF5002DFB79 /* FocusManagement.swift in Sources */,
 				18E75371272457F60035F835 /* NavigationContentView2.swift in Sources */,
+				FC3890BB27672A5F002DFB79 /* EnvironmentTest.swift in Sources */,
 				FC1CC09B270DE595007DEBC2 /* LazyLoading.swift in Sources */,
 				FC4760F5267E049A00DEE6F5 /* SwiftUIBasicsApp.swift in Sources */,
 				FCCF001126FE1955001C2EE2 /* GeometryReader.swift in Sources */,

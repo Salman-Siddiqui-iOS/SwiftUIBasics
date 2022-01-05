@@ -7,11 +7,13 @@
 
 import SwiftUI
 
+// The List view managed UITableView under the hood
 // In UIKit equivalent was UITableView
 // List provides scrolling table of data
 // Same like form representation of data rather then requesting user data
 
 //  Using a List view is the most efficient way of displaying vertically scrolling data. You can display data in a ScrollView, but it will not be as efficient in terms of memory or performance as the List view.
+
 
 struct ListView: View {
     let people = ["hello", "world", "salman", "siddiqui"]
@@ -41,7 +43,12 @@ struct ListView: View {
     //   }
     // creates rows when its needed if number of rows are more
         List(people, id: \.self) {
-            Text($0)
+            if #available(iOS 15.0, *) {
+                Text($0)
+                    .listRowSeparatorTint(.red)
+            } else {
+                // Fallback on earlier versions
+            }
         }
         
     }
@@ -97,20 +104,19 @@ struct List_Grouped: View {
     var body: some View {
         List(data, id: \.self) {
             data in
-            if #available(iOS 15.0, *) {
                 Section(header: Text("Names"), footer: Text("All Names")) {
                     Text(data)
                 }
-                .listSectionSeparator(.visible)
-            } else {
-                // Fallback on earlier versions
-            }
-        }.listStyle(.grouped)
+                .listRowSeparatorTint(.green)
+                .listSectionSeparatorTint(.red)
+                .listSectionSeparator(.visible, edges: .all)
+        }
+        .listStyle(.plain)
     }
 }
 
 struct ListView_Previews: PreviewProvider {
     static var previews: some View {
-        ListView()
+        List_Grouped()
     }
 }

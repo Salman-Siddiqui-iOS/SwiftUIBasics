@@ -11,6 +11,8 @@
  
  Every view inside SwiftUI inherits Environment from its parent view by default. But remember that you can override any values you want while creating the child view by attaching Environment modifier.
  
+ An easy way to do this is through the .environmentObject view modifier. The one downside of this view modifier and corresponding `@EnvironmentObject` property wrapper is that the object you add to the environment must be an *observable object*.
+ 
  The significant benefit of using Environment and not passing ObservableObject via the init method of the view is the internal SwiftUI storage. SwiftUI stores Environment in the special framework memory outside the view. It gives an implicit access to view-specific Environment for all child views.
 */
 

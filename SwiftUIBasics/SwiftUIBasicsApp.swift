@@ -15,11 +15,7 @@ struct SwiftUIBasicsApp: App {
            // NavigationContentView2().environmentObject(navObj)
             // BindableListElements(list: SwiftUIBasicsApp.notes123())
           //  TexField_Style()
-            if #available(iOS 15.0, *) {
-                 
-            } else {
-                // Fallback on earlier versions
-            }
+            SearchBar()
         }
     }
     

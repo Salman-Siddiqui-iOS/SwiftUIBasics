@@ -13,6 +13,7 @@
 		18E753742724593B0035F835 /* FrameModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E753732724593A0035F835 /* FrameModifier.swift */; };
 		FC1238B3270CB4D1008239E3 /* Clipping.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1238B2270CB4D1008239E3 /* Clipping.swift */; };
 		FC1CC09B270DE595007DEBC2 /* LazyLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1CC09A270DE595007DEBC2 /* LazyLoading.swift */; };
+		FC1D49DA279E95C500B2A339 /* BackgroundAndOverlays.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1D49D9279E95C500B2A339 /* BackgroundAndOverlays.swift */; };
 		FC26996F267F6832007B4C91 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC26996E267F6832007B4C91 /* ListView.swift */; };
 		FC2FE54A2680D3A8000EAA8D /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2FE5492680D3A8000EAA8D /* GridView.swift */; };
 		FC3890BB27672A5F002DFB79 /* EnvironmentTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3890BA27672A5F002DFB79 /* EnvironmentTest.swift */; };
@@ -27,11 +28,13 @@
 		FC476106267E049B00DEE6F5 /* SwiftUIBasicsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC476105267E049B00DEE6F5 /* SwiftUIBasicsTests.swift */; };
 		FC476110267E049B00DEE6F5 /* SwiftUIBasicsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC47610F267E049B00DEE6F5 /* SwiftUIBasicsUITests.swift */; };
 		FC502CC2267E14EF004B2028 /* ModifierOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC502CC1267E14EF004B2028 /* ModifierOrder.swift */; };
+		FC52DAE7278576FB004A6B42 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC52DAE6278576FB004A6B42 /* SearchBar.swift */; };
 		FC8A05B5273950D4002DAB15 /* DataEssentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8A05B4273950D4002DAB15 /* DataEssentials.swift */; };
 		FCA005CE2686525C00D23B4B /* BindableListElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA005CD2686525C00D23B4B /* BindableListElements.swift */; };
 		FCB8E96426FC7EBA00D7C81B /* Forms.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB8E96326FC7EBA00D7C81B /* Forms.swift */; };
 		FCB8E96626FCC0A200D7C81B /* ScrollViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB8E96526FCC0A200D7C81B /* ScrollViews.swift */; };
 		FCCF001126FE1955001C2EE2 /* GeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCF001026FE1955001C2EE2 /* GeometryReader.swift */; };
+		FCE14E1927AAD88500F6E8DC /* EnvironmentObjectTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE14E1827AAD88500F6E8DC /* EnvironmentObjectTest.swift */; };
 		FCE2C12B2731741F00F1735C /* TextField_Basics.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE2C12A2731741F00F1735C /* TextField_Basics.swift */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +62,7 @@
 		18E753732724593A0035F835 /* FrameModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameModifier.swift; sourceTree = "<group>"; };
 		FC1238B2270CB4D1008239E3 /* Clipping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clipping.swift; sourceTree = "<group>"; };
 		FC1CC09A270DE595007DEBC2 /* LazyLoading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyLoading.swift; sourceTree = "<group>"; };
+		FC1D49D9279E95C500B2A339 /* BackgroundAndOverlays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundAndOverlays.swift; sourceTree = "<group>"; };
 		FC26996E267F6832007B4C91 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		FC2FE5492680D3A8000EAA8D /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
 		FC3890BA27672A5F002DFB79 /* EnvironmentTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentTest.swift; sourceTree = "<group>"; };
@@ -76,11 +80,13 @@
 		FC47610B267E049B00DEE6F5 /* SwiftUIBasicsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIBasicsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC47610F267E049B00DEE6F5 /* SwiftUIBasicsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBasicsUITests.swift; sourceTree = "<group>"; };
 		FC502CC1267E14EF004B2028 /* ModifierOrder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModifierOrder.swift; sourceTree = "<group>"; };
+		FC52DAE6278576FB004A6B42 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		FC8A05B4273950D4002DAB15 /* DataEssentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataEssentials.swift; sourceTree = "<group>"; };
 		FCA005CD2686525C00D23B4B /* BindableListElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindableListElements.swift; sourceTree = "<group>"; };
 		FCB8E96326FC7EBA00D7C81B /* Forms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forms.swift; sourceTree = "<group>"; };
 		FCB8E96526FCC0A200D7C81B /* ScrollViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViews.swift; sourceTree = "<group>"; };
 		FCCF001026FE1955001C2EE2 /* GeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryReader.swift; sourceTree = "<group>"; };
+		FCE14E1827AAD88500F6E8DC /* EnvironmentObjectTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectTest.swift; sourceTree = "<group>"; };
 		FCE2C12A2731741F00F1735C /* TextField_Basics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField_Basics.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -152,6 +158,7 @@
 				FC2FE5492680D3A8000EAA8D /* GridView.swift */,
 				FCA005CD2686525C00D23B4B /* BindableListElements.swift */,
 				FCB8E96326FC7EBA00D7C81B /* Forms.swift */,
+				FC52DAE6278576FB004A6B42 /* SearchBar.swift */,
 				FCCF001026FE1955001C2EE2 /* GeometryReader.swift */,
 				FCB8E96526FCC0A200D7C81B /* ScrollViews.swift */,
 				FC1238B2270CB4D1008239E3 /* Clipping.swift */,
@@ -164,6 +171,8 @@
 				FC476104267E049B00DEE6F5 /* SwiftUIBasicsTests */,
 				FC4760FA267E049B00DEE6F5 /* Preview Content */,
 				FC3890BA27672A5F002DFB79 /* EnvironmentTest.swift */,
+				FC1D49D9279E95C500B2A339 /* BackgroundAndOverlays.swift */,
+				FCE14E1827AAD88500F6E8DC /* EnvironmentObjectTest.swift */,
 			);
 			path = SwiftUIBasics;
 			sourceTree = "<group>";
@@ -330,14 +339,17 @@
 				FC502CC2267E14EF004B2028 /* ModifierOrder.swift in Sources */,
 				FC3F40EB26FB9CB500C6D8A4 /* Layers.swift in Sources */,
 				FC3F40EA26FB9CB500C6D8A4 /* ViewBuildersTest.swift in Sources */,
+				FCE14E1927AAD88500F6E8DC /* EnvironmentObjectTest.swift in Sources */,
 				FC8A05B5273950D4002DAB15 /* DataEssentials.swift in Sources */,
 				FCE2C12B2731741F00F1735C /* TextField_Basics.swift in Sources */,
 				FCB8E96426FC7EBA00D7C81B /* Forms.swift in Sources */,
 				FC2FE54A2680D3A8000EAA8D /* GridView.swift in Sources */,
 				FC3F40E826FB9CB500C6D8A4 /* Stacks.swift in Sources */,
 				FC3890BD27672BF5002DFB79 /* FocusManagement.swift in Sources */,
+				FC1D49DA279E95C500B2A339 /* BackgroundAndOverlays.swift in Sources */,
 				18E75371272457F60035F835 /* NavigationContentView2.swift in Sources */,
 				FC3890BB27672A5F002DFB79 /* EnvironmentTest.swift in Sources */,
+				FC52DAE7278576FB004A6B42 /* SearchBar.swift in Sources */,
 				FC1CC09B270DE595007DEBC2 /* LazyLoading.swift in Sources */,
 				FC4760F5267E049A00DEE6F5 /* SwiftUIBasicsApp.swift in Sources */,
 				FCCF001126FE1955001C2EE2 /* GeometryReader.swift in Sources */,

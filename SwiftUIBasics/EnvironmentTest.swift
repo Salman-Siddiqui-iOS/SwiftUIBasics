@@ -14,7 +14,10 @@
  An easy way to do this is through the .environmentObject view modifier. The one downside of this view modifier and corresponding `@EnvironmentObject` property wrapper is that the object you add to the environment must be an *observable object*.
  
  The significant benefit of using Environment and not passing ObservableObject via the init method of the view is the internal SwiftUI storage. SwiftUI stores Environment in the special framework memory outside the view. It gives an implicit access to view-specific Environment for all child views.
+ * use environment objects when multiple views need to be able to modify view state or model data and get updated when data changes.
+ * But for passing UI specific values that only influence the layout of the views, we prefer to use environment variables.
 */
+
 
 import SwiftUI
 

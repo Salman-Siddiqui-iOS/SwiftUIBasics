@@ -139,6 +139,6 @@ struct SubView: View {
 
 struct SizeModifier_Previews: PreviewProvider {
     static var previews: some View {
-        ExampleView()
+        FrameModifier()
     }
 }

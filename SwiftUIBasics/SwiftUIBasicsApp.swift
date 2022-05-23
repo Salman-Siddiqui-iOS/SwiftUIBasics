@@ -15,7 +15,8 @@ struct SwiftUIBasicsApp: App {
            // NavigationContentView2().environmentObject(navObj)
             // BindableListElements(list: SwiftUIBasicsApp.notes123())
           //  TexField_Style()
-            SearchBar()
+          //  SearchBar()
+            BindableListElements(list: BindableListElements_Previews.notes123())
         }
     }
     

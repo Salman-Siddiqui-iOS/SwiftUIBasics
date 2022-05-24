@@ -55,3 +55,73 @@ extension EnvironmentValues {
         set { self[CaptionColorKey.self] = newValue }
     }
 }
+
+//---------Second Example -----
+
+struct SizeConstants {
+    static let narrowWidth: CGFloat = 450
+    static let smallHeight: CGFloat = 320
+}
+
+struct ParentSizeEnvironmentKey: EnvironmentKey {
+    static let defaultValue: CGSize? = nil
+}
+
+extension EnvironmentValues {
+    var parentSize: CGSize? {
+        get {
+            return self[ParentSizeEnvironmentKey.self]
+        }
+        
+        set {
+            self[ParentSizeEnvironmentKey.self] = newValue
+        }
+    }
+}
+
+extension View {
+    func parentSize(_ size: CGSize?) -> some View {
+        return self.environment(\.parentSize, size)
+    }
+}
+
+struct EnvironmentTest2: View {
+    var body: some View {
+        GeometryReader { geo in
+            VStack(spacing: 16) {
+                AppDescription()
+            }
+            .parentSize(geo.size)
+        }
+    }
+}
+
+struct AppDescription: View {
+    
+    @Environment(\.parentSize) var parentSize
+    
+    var hasSmallHeight: Bool {
+        if let parentSize = parentSize,
+                    parentSize.height <= SizeConstants.smallHeight {
+                    return true
+                }
+                return false
+    }
+    
+    var body: some View {
+        VStack(spacing: 16) {
+                    Text("App Title")
+                        .font(.title)
+                    Text("This is a really great app.")
+                        .font(.headline)
+                    
+                    if !hasSmallHeight {
+                        Text("""
+                        This app lets you do lots of amazing things.
+                        You should definitely consider subscribing now.
+                        """)
+                    }
+                }
+                .multilineTextAlignment(.center)
+    }
+}

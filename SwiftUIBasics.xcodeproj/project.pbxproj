@@ -29,6 +29,7 @@
 		FC476110267E049B00DEE6F5 /* SwiftUIBasicsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC47610F267E049B00DEE6F5 /* SwiftUIBasicsUITests.swift */; };
 		FC502CC2267E14EF004B2028 /* ModifierOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC502CC1267E14EF004B2028 /* ModifierOrder.swift */; };
 		FC52DAE7278576FB004A6B42 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC52DAE6278576FB004A6B42 /* SearchBar.swift */; };
+		FC798CF3283BED01006A29F7 /* TimeLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC798CF2283BED01006A29F7 /* TimeLineView.swift */; };
 		FC8A05B5273950D4002DAB15 /* DataEssentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8A05B4273950D4002DAB15 /* DataEssentials.swift */; };
 		FCA005CE2686525C00D23B4B /* BindableListElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA005CD2686525C00D23B4B /* BindableListElements.swift */; };
 		FCB8E96426FC7EBA00D7C81B /* Forms.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB8E96326FC7EBA00D7C81B /* Forms.swift */; };
@@ -81,6 +82,7 @@
 		FC47610F267E049B00DEE6F5 /* SwiftUIBasicsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBasicsUITests.swift; sourceTree = "<group>"; };
 		FC502CC1267E14EF004B2028 /* ModifierOrder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModifierOrder.swift; sourceTree = "<group>"; };
 		FC52DAE6278576FB004A6B42 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		FC798CF2283BED01006A29F7 /* TimeLineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLineView.swift; sourceTree = "<group>"; };
 		FC8A05B4273950D4002DAB15 /* DataEssentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataEssentials.swift; sourceTree = "<group>"; };
 		FCA005CD2686525C00D23B4B /* BindableListElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindableListElements.swift; sourceTree = "<group>"; };
 		FCB8E96326FC7EBA00D7C81B /* Forms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forms.swift; sourceTree = "<group>"; };
@@ -173,6 +175,7 @@
 				FC3890BA27672A5F002DFB79 /* EnvironmentTest.swift */,
 				FC1D49D9279E95C500B2A339 /* BackgroundAndOverlays.swift */,
 				FCE14E1827AAD88500F6E8DC /* EnvironmentObjectTest.swift */,
+				FC798CF2283BED01006A29F7 /* TimeLineView.swift */,
 			);
 			path = SwiftUIBasics;
 			sourceTree = "<group>";
@@ -338,6 +341,7 @@
 				FC3F40E926FB9CB500C6D8A4 /* Spacers.swift in Sources */,
 				FC502CC2267E14EF004B2028 /* ModifierOrder.swift in Sources */,
 				FC3F40EB26FB9CB500C6D8A4 /* Layers.swift in Sources */,
+				FC798CF3283BED01006A29F7 /* TimeLineView.swift in Sources */,
 				FC3F40EA26FB9CB500C6D8A4 /* ViewBuildersTest.swift in Sources */,
 				FCE14E1927AAD88500F6E8DC /* EnvironmentObjectTest.swift in Sources */,
 				FC8A05B5273950D4002DAB15 /* DataEssentials.swift in Sources */,
